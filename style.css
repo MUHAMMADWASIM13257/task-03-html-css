@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #f3e7e9, #e3eeff);
+}
+
+.container {
+    display: flex;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 800px;
+    width: 100%;
+}
+
+.welcome-section {
+    background-image: url("/images/im.jpg");
+    color: #fff;
+    padding: 40px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.welcome-section h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.login-section {
+    flex: 1;
+    padding: 40px;
+}
+
+.login-section h2 {
+    margin-bottom: 20px;
+}
+
+.login-section input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-section .remember-me {
+    display: flex;
+    align-items: center;
+}
+
+.login-section {
+    margin-right: 10px;
+}
+
+.remember-me {
+    float: left;
+    margin-right: 15px;
+}
+
+.remember-me>input, p {
+    /* margin-right: 18%; */
+    justify-content: center;
+    /* text-align: left; */
+    margin-left: 5px;
+    font-size: 12px;
+
+}
+
+.remember-me>.rememberMe>p {
+    text-align: justify;
+    font-size: 12px;
+}
+
+.remember-me>label {
+    margin-right: 18%;
+    justify-content: center;
+    text-align: left;
+}
+
+.forgot-password {
+    float: right;
+    margin-right: 18%;
+    /* justify-content: right; */
+}
+
+.login-section button {
+    width: 100%;
+    padding: 10px;
+    background: #7b5cff;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.login-section .signup {
+    margin-top: 20px;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
