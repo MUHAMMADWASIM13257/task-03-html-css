@@ -19,7 +19,7 @@ body {
 }
 
 .welcome-section {
-    background-image: url("/im.jpg");
+    background-image: url("./im.jpg");
     color: #fff;
     padding: 40px;
     flex: 1;
