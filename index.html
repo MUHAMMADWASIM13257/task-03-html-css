@@ -4,41 +4,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="../task-03-html-css/style.css">
-    <link rel="icon" href="../task-03-html-css/im.jpg" type="image/x-icon">
-
+    <title>login</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
+
     <div class="container">
-        <div class="welcome-section">
-            <h1>Welcome Back!</h1>
+        <div class="firstOne">
+            <p class="text">
+                Welcome Back
+            </p>
         </div>
-        <div class="login-section">
+        <div class="secoundOne">
             <h2>Login</h2>
-            <p>Welcome back! please login to user account</p>
+            <p>Welcome back! Please login your account.</p>
             <form>
-                <label for="userName">User Name: </label>
-                <input type="email" id="userName" required>
-                <label for="password">Password: </label>
+                <label for="Username">User Name: </label><br>
+                <input type="email" id="Username" required>
+                <br><br>
+                <label for="password">Password: </label><br>
                 <input type="password" id="password" required>
-                <div class="remember-me">
-                    <input type="checkbox" id="rememberMe">
-                    <label for="rememberMe">
-                        <p>Remember Me</p>
-                    </label>
-                </div>
-                <div class="forgot-password">
-                    <p><a href="#">Forgot Password?</a></p>
-                </div>
-                <button type="submit">Login</button>
-                <div class="signup">
-                    <p>New User? <a href="#">Signup</a></p>
-                </div>
+                <br>
+                <input type="checkbox" checked="checked">
+                <p class="p">Remember Me</p>
+                <a href="#">Forget password</a>
+                <button type="submit">Login</button><br><br>
+                <span>New User?<a class="Signup" href="#">Signup</a></span>
             </form>
         </div>
     </div>
+    <footer>
+        <strong>MUHAMMAD WASIM</strong>
+        <p>Copyright &copy; 2024</p>
+        <a href="#">Terms and Conditions</a> | <a class="a" href="#">Privacy Policy</a>
+        <p>Contact Us: 0334-2372772</p>
+        <p>Email: muhammadwasim.cusit@gmail.com</p>
+        <p>Address: Doctor Gust House, Phase 4, Hayatabad, Peshawar,KPK,Pakistan </p>
+        <p>Phone: 0325-7627554</p>
+    </footer>
 </body>
 
 </html>
